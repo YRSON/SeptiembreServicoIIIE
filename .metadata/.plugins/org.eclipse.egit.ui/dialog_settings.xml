@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="D:\Carrera\6to_Ciclo\2. Desarrollo de Servicios Web 2\Workspace\SeptiembreServicoIIIE\.git">
+			<item value="false"/>
+			<item value="YRSON &lt;yersonsifuentesc20@gmail.com&gt;"/>
+			<item value="Cambios del Proyecto"/>
+			<item value="YRSON &lt;yersonsifuentesc20@gmail.com&gt;"/>
+			<item value="98f219388806dcbc9e0d5f05ce68cc4b530fed44"/>
+			<item value="0"/>
+			<item value="false"/>
+			<item value=""/>
+		</list>
+	</section>
+</section>

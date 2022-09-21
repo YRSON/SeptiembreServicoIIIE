@@ -1,0 +1,54 @@
+package com.idat.SeptiembreIIIE.repository;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.idat.SeptiembreIIIE.model.Producto;
+
+@Service
+public class ProductoRepositoryImp implements ProductoRepository {
+	
+	List<Producto> almacenamiento = new ArrayList<>();
+
+	@Override
+	public void guardar(Producto producto) {
+		// TODO Auto-generated method stub
+		almacenamiento.add(producto);
+	}
+
+	@Override
+	public void actualizar(Producto producto) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void eliminar(Integer id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Producto> listar() {
+		// TODO Auto-generated method stub
+		return almacenamiento;
+	}
+
+	@Override
+	public Producto obtener(Integer id) {
+		// TODO Auto-generated method stub
+		//Programacion en flujos
+		almacenamiento.stream().filter(p -> p.getIdProducto() == id).findFirst().orElse(null);
+		
+		//Manera funcional
+		/*for (Producto producto : almacenamiento) {
+			if(producto.getIdProducto() == id) {
+				return producto;
+			}
+		}
+		return null;*/
+	}
+
+}

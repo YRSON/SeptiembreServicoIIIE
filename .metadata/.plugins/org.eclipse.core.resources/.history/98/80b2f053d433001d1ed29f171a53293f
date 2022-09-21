@@ -1,0 +1,5 @@
+package com.idat.SeptiembreIIIE.repository;
+
+public interface ProductoRepository {
+
+}

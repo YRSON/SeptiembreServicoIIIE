@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\Carrera\6to_Ciclo\2. Desarrollo de Servicios Web 2\Workspace\SeptiembreServicoIIIE\.metadata\.plugins\org.eclipse.jdt.core
+4212907540.index
+1865797976.index
+1574843208.index
